@@ -20,9 +20,9 @@ public class StringPalindrome {
 		System.out.println("ENTER NUMBER TO CHECK FOR PALINDROME");
 		reverse=in.nextLine();
 		
-		int length = s.length();
+		int length = reverse.length();
 		
-		for(int i = length-1;i>=0;i++)
+		for(int i = length-1;i>=0;i--)
 		{
 			s=s+reverse.charAt(i);
 		}
